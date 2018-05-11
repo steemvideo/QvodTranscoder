@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{59b93300-3481-4705-883d-ac50b93a2671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\LIST">
+      <UniqueIdentifier>{a4d4fa43-47c7-4da8-b946-d04769191ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\TABLE">
+      <UniqueIdentifier>{b0145090-5f26-4c50-84ad-a72b5db6690f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\BASEUI">
+      <UniqueIdentifier>{bd2a445c-119e-4878-9a88-0ba4f8d003ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="VersionTrack">
+      <UniqueIdentifier>{d2a21498-3dad-4649-9c40-4782288689e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Coredump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xConfigManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xFunciton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xTaskItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xTaskManagerUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xApp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xApp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xBaseDialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xBaseDialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xBottom_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xBottom_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xListItemDelegate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xListItemDelegate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xListView_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xListView_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xMediaInfo_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xMediaInfo_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xMessageBox_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xMessageBox_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xOutput_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xOutput_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xParameter_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xParameter_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xParameterEx_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xParameterEx_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xParseSample_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xParseSample_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xTableItemDelegate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xTableModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xTableView_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xTableView_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xTaskManagerUI.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xTaskManagerUI.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xTester_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xTester_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xTitleBar_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xTitleBar_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xTools_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xTools_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xTranscoder.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xTranscoder.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xUpload_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xUpload_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_xTranscoder.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWin.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xBottom_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xMain_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xMediaInfo_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xMessageBox_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xOutput_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xParameter_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xParameterEx_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xParseSample_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xTester_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xTools_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xTranscoder.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xUpload_ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="xListItemDelegate.cpp">
+      <Filter>UI\LIST</Filter>
+    </ClCompile>
+    <ClCompile Include="xListView_ui.cpp">
+      <Filter>UI\LIST</Filter>
+    </ClCompile>
+    <ClCompile Include="xTableItemDelegate.cpp">
+      <Filter>UI\TABLE</Filter>
+    </ClCompile>
+    <ClCompile Include="xTableModel.cpp">
+      <Filter>UI\TABLE</Filter>
+    </ClCompile>
+    <ClCompile Include="xTableView_ui.cpp">
+      <Filter>UI\TABLE</Filter>
+    </ClCompile>
+    <ClCompile Include="xBaseDialog.cpp">
+      <Filter>UI\BASEUI</Filter>
+    </ClCompile>
+    <ClCompile Include="xlangchangelisten.cpp">
+      <Filter>UI\BASEUI</Filter>
+    </ClCompile>
+    <ClCompile Include="xTitleBar_ui.cpp">
+      <Filter>UI\BASEUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Coredump.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xConfigManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xFunction.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xTypeDefines.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xBottom.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xMediaInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xMessageBox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xOutput_ui.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xParameter.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xParameterEx.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xParseSample.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xTester.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xTitleBar.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xTools.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xTranscoder.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xUpload_ui.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWin.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="xMain_ui.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qvodtranscoder_tw.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReleaseNote.txt">
+      <Filter>VersionTrack</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="qvodtranscoder.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="xApp.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTaskItem.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTaskManagerUI.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logo.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTranscoder.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xBottom_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xMediaInfo_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xMessageBox_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xOutput_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xParameter_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xParameterEx_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xParseSample_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTester_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTools_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTranscoder.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xUpload_ui.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xListItemDelegate.h">
+      <Filter>UI\LIST</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xListView_ui.h">
+      <Filter>UI\LIST</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTableItemDelegate.h">
+      <Filter>UI\TABLE</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTableModel.h">
+      <Filter>UI\TABLE</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTableView_ui.h">
+      <Filter>UI\TABLE</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xBaseDialog.h">
+      <Filter>UI\BASEUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xIItemOperator.h">
+      <Filter>UI\BASEUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xlangchangelisten.h">
+      <Filter>UI\BASEUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTitleBar_ui.h">
+      <Filter>UI\BASEUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xBottom.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xMediaInfo.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xMessageBox.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xOutput_ui.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xParameter.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xParameterEx.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xParseSample.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTester.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTitleBar.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTools.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xTranscoder.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xUpload_ui.ui">
+      <Filter>UI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qvodtranscoder_zh.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

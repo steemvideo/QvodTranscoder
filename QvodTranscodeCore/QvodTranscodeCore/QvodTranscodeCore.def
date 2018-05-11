@@ -1,0 +1,5 @@
+LIBRARY	   QvodTranscodeCore.dll
+
+EXPORTS
+            InitQvodTaskManager
+            DestroyQvodTaskManager

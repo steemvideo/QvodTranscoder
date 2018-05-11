@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QvodTranscodeCore", "QvodTranscodeCore\QvodTranscodeCore\QvodTranscodeCore.vcxproj", "{C995672D-607D-4C62-A7BF-8562E801E3DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QvodPushSource", "QvodPushSource\QvodPushSource\QvodPushSource.vcxproj", "{630294AC-A306-48E7-9906-AE00444B6BEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QvodTranscoder", "QvodTranscoder\QvodTranscoder.vcxproj", "{853C80A3-29CE-4B8F-A544-9A6A1C3AE109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C995672D-607D-4C62-A7BF-8562E801E3DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C995672D-607D-4C62-A7BF-8562E801E3DE}.Debug|Win32.Build.0 = Debug|Win32
+		{C995672D-607D-4C62-A7BF-8562E801E3DE}.Release|Win32.ActiveCfg = Release|Win32
+		{C995672D-607D-4C62-A7BF-8562E801E3DE}.Release|Win32.Build.0 = Release|Win32
+		{630294AC-A306-48E7-9906-AE00444B6BEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{630294AC-A306-48E7-9906-AE00444B6BEC}.Debug|Win32.Build.0 = Debug|Win32
+		{630294AC-A306-48E7-9906-AE00444B6BEC}.Release|Win32.ActiveCfg = Release|Win32
+		{630294AC-A306-48E7-9906-AE00444B6BEC}.Release|Win32.Build.0 = Release|Win32
+		{853C80A3-29CE-4B8F-A544-9A6A1C3AE109}.Debug|Win32.ActiveCfg = Debug|Win32
+		{853C80A3-29CE-4B8F-A544-9A6A1C3AE109}.Debug|Win32.Build.0 = Debug|Win32
+		{853C80A3-29CE-4B8F-A544-9A6A1C3AE109}.Release|Win32.ActiveCfg = Release|Win32
+		{853C80A3-29CE-4B8F-A544-9A6A1C3AE109}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3526F861-344F-4043-B793-ED60DC6EDC0B}
+	EndGlobalSection
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndGlobal

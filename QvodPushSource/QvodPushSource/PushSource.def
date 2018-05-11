@@ -1,0 +1,12 @@
+;===========================================================================
+;  Copyright (c) 2010-2020  QVOD Corporation.  All Rights Reserved.
+;===========================================================================
+
+LIBRARY     QvodPushSource.dll
+
+EXPORTS
+            DllMain                 PRIVATE
+            DllGetClassObject       PRIVATE
+            DllCanUnloadNow         PRIVATE
+            DllRegisterServer       PRIVATE
+            DllUnregisterServer     PRIVATE

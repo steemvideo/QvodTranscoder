@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Edit">
+      <UniqueIdentifier>{8fe47d41-400b-40b5-a507-31c64046d38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{b2e837b3-885f-40e0-bb20-3a5430499afe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MediaInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewTask.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Reg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TranscodeTask.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xAudioBuffer.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="xClip.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="xDuoQueue.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="xEdit.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="xObject.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="xTrack.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="xUtility.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="xVideoBuffer.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="commonfunction.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="QVodFilterManager.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="xMainGraph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="xTranscodeGraph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QvodTranscodeCore.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="QvodTranscodeCored.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\IFFmpegMux.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\IPushSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\IQVODH265Encoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\ISub.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\ITranscode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\MessageDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\QMediaInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Reg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\TranscodeStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TranscodeTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\IDataSink.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\IDataSource.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\IEdit.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\xAudioBuffer.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="xClip.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\xDuoQueue.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="xEdit.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\xObject.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="xTrack.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="xUtility.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\xVideoBuffer.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="clsid.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\commonfunction.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\IDirectVobSub.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\ISound.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\IvideoEffect.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="QVodFilterManager.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="xMainGraph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="xTranscodeGraph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\xXmlparse.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QvodTranscodeCore.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReleaseNote.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

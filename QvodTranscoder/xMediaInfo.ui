@@ -1,0 +1,505 @@
+<ui version="4.0" >
+ <class>xMediaInfoClass</class>
+ <widget class="QDialog" name="xMediaInfoClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle" >
+   <string>xMediaInfo</string>
+  </property>
+  <widget class="QGroupBox" name="gb_src" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>46</y>
+     <width>382</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize" >
+    <size>
+     <width>0</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="maximumSize" >
+    <size>
+     <width>16777215</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="title" >
+    <string>source file</string>
+   </property>
+   <property name="flat" >
+    <bool>true</bool>
+   </property>
+   <widget class="QLabel" name="label" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>23</y>
+      <width>72</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>file type :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblType" >
+    <property name="geometry" >
+     <rect>
+      <x>88</x>
+      <y>23</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4" >
+    <property name="geometry" >
+     <rect>
+      <x>202</x>
+      <y>23</y>
+      <width>72</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>resolution :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblResolution" >
+    <property name="geometry" >
+     <rect>
+      <x>272</x>
+      <y>23</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_111" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>47</y>
+      <width>72</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>video type :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblVideoType" >
+    <property name="geometry" >
+     <rect>
+      <x>88</x>
+      <y>47</y>
+      <width>100</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5" >
+    <property name="geometry" >
+     <rect>
+      <x>201</x>
+      <y>47</y>
+      <width>72</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>audio type :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblAudioType" >
+    <property name="geometry" >
+     <rect>
+      <x>272</x>
+      <y>47</y>
+      <width>100</width>
+      <height>19</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>72</y>
+      <width>72</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>video rate :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblRate" >
+    <property name="geometry" >
+     <rect>
+      <x>88</x>
+      <y>72</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6" >
+    <property name="geometry" >
+     <rect>
+      <x>200</x>
+      <y>72</y>
+      <width>72</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>file size :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblFileSize" >
+    <property name="geometry" >
+     <rect>
+      <x>272</x>
+      <y>72</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="gb_dest" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>388</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize" >
+    <size>
+     <width>0</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="maximumSize" >
+    <size>
+     <width>16777215</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="title" >
+    <string>dest file</string>
+   </property>
+   <property name="flat" >
+    <bool>true</bool>
+   </property>
+   <widget class="QLabel" name="label_2" >
+    <property name="geometry" >
+     <rect>
+      <x>11</x>
+      <y>23</y>
+      <width>72</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>file type :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblType_2" >
+    <property name="geometry" >
+     <rect>
+      <x>88</x>
+      <y>23</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9" >
+    <property name="geometry" >
+     <rect>
+      <x>202</x>
+      <y>23</y>
+      <width>78</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>resolution :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblResolution_2" >
+    <property name="geometry" >
+     <rect>
+      <x>278</x>
+      <y>23</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_112" >
+    <property name="geometry" >
+     <rect>
+      <x>11</x>
+      <y>47</y>
+      <width>72</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>video type :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblVideoType_2" >
+    <property name="geometry" >
+     <rect>
+      <x>88</x>
+      <y>47</y>
+      <width>100</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8" >
+    <property name="geometry" >
+     <rect>
+      <x>202</x>
+      <y>47</y>
+      <width>78</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>audio type :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblAudioType_2" >
+    <property name="geometry" >
+     <rect>
+      <x>278</x>
+      <y>47</y>
+      <width>100</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7" >
+    <property name="geometry" >
+     <rect>
+      <x>11</x>
+      <y>72</y>
+      <width>72</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>video rate :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblRate_2" >
+    <property name="geometry" >
+     <rect>
+      <x>88</x>
+      <y>72</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10" >
+    <property name="geometry" >
+     <rect>
+      <x>201</x>
+      <y>72</y>
+      <width>78</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>expect size :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblFileSize_2" >
+    <property name="geometry" >
+     <rect>
+      <x>278</x>
+      <y>72</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btnOK" >
+   <property name="geometry" >
+    <rect>
+     <x>314</x>
+     <y>241</y>
+     <width>77</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="focusPolicy" >
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text" >
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C995672D-607D-4C62-A7BF-8562E801E3DE}</ProjectGuid>
+    <RootNamespace>QvodTranscodeCore</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27428.2015</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/wd4430 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../inc;..\..\3rdlib\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;WIN32;_DEBUG;_WINDOWS;_USRDLL;QVODTRANSCODECORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../../lib/strmbasd.lib;Winmm.lib;Dmoguids.lib;Strmiids.lib;../../lib/libmfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>C:\Program Files (x86)\QvodPlayer\QvodTranscodeCore.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\3rdlib\boost\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>QvodTranscodeCored.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress />
+      <ImportLibrary>..\..\lib\$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <AdditionalIncludeDirectories>../../inc;..\..\3rdlib\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;QVODTRANSCODECORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../../lib/strmbaseRU.lib;Winmm.lib;Dmoguids.lib;Strmiids.lib;../../lib/libmfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>C:\Program Files (x86)\QvodPlayer\QvodTranscodeCore.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\3rdlib\boost\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>QvodTranscodeCore.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>..\..\lib\$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="commonfunction.cpp" />
+    <ClCompile Include="MediaInfo.cpp" />
+    <ClCompile Include="PreviewTask.cpp" />
+    <ClCompile Include="QVodFilterManager.cpp" />
+    <ClCompile Include="Reg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp" />
+    <ClCompile Include="tools.cpp" />
+    <ClCompile Include="TranscodeTask.cpp" />
+    <ClCompile Include="xAudioBuffer.cpp" />
+    <ClCompile Include="xClip.cpp" />
+    <ClCompile Include="xDuoQueue.cpp" />
+    <ClCompile Include="xEdit.cpp" />
+    <ClCompile Include="xMainGraph.cpp" />
+    <ClCompile Include="xObject.cpp" />
+    <ClCompile Include="xTrack.cpp" />
+    <ClCompile Include="xTranscodeGraph.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="xUtility.cpp" />
+    <ClCompile Include="xVideoBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QvodTranscodeCore.def" />
+    <None Include="QvodTranscodeCored.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\commonfunction.h" />
+    <ClInclude Include="..\..\inc\IDataSink.h" />
+    <ClInclude Include="..\..\inc\IDataSource.h" />
+    <ClInclude Include="..\..\inc\IDirectVobSub.h" />
+    <ClInclude Include="..\..\inc\IEdit.h" />
+    <ClInclude Include="..\..\inc\IFFmpegMux.h" />
+    <ClInclude Include="..\..\inc\IPushSource.h" />
+    <ClInclude Include="..\..\inc\IQVODH265Encoder.h" />
+    <ClInclude Include="..\..\inc\ISound.h" />
+    <ClInclude Include="..\..\inc\ISub.h" />
+    <ClInclude Include="..\..\inc\ITranscode.h" />
+    <ClInclude Include="..\..\inc\IvideoEffect.h" />
+    <ClInclude Include="..\..\inc\MessageDefine.h" />
+    <ClInclude Include="..\..\inc\QMediaInfo.h" />
+    <ClInclude Include="..\..\inc\TranscodeStruct.h" />
+    <ClInclude Include="..\..\inc\xAudioBuffer.h" />
+    <ClInclude Include="..\..\inc\xDuoQueue.h" />
+    <ClInclude Include="..\..\inc\xObject.h" />
+    <ClInclude Include="..\..\inc\xVideoBuffer.h" />
+    <ClInclude Include="..\..\inc\xXmlparse.h" />
+    <ClInclude Include="clsid.h" />
+    <ClInclude Include="MediaInfo.h" />
+    <ClInclude Include="PreviewTask.h" />
+    <ClInclude Include="QVodFilterManager.h" />
+    <ClInclude Include="Reg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TaskManager.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="TranscodeTask.h" />
+    <ClInclude Include="xClip.h" />
+    <ClInclude Include="xEdit.h" />
+    <ClInclude Include="xMainGraph.h" />
+    <ClInclude Include="xTrack.h" />
+    <ClInclude Include="xTranscodeGraph.h" />
+    <ClInclude Include="xUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QvodTranscodeCore.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReleaseNote.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
